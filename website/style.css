@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(img/xyz.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    padding: 3px 31px;
+    margin: 12px auto;
+
+}
+
+.right {
+    display: block;
+    /* border: 2px solid yellow; */
+    float: right;
+    padding: 3px 50px;
+    margin: 12px auto;
+
+}
+
+.navbar li {
+    list-style: none;
+    float: right;
+    font-size: 23px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 3px 27px;
+    color: black;
+}
+
+img {
+    width: 77px;
+    height: 64px;
+}
+
+.btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 23px;
+
+}
+
+.btn:hover {
+    font-size: 30px;
+    color: red;
+}
+
+.navbar li a:hover {
+    font-size: 30px;
+    color: red;
+    text-decoration: underline;
+}
+
+.cointainer {
+    border: 2px solid #ff0032;
+    margin: 77px 183px;
+    padding: 80px 50px;
+    width: 33%;
+    border-radius: 31px;
+}
+
+.from-group input {
+
+    display: block;
+    width: 126px;
+    padding: 10px 94px;
+    border: 2px solid black;
+    margin: 8px auto;
+    text-align: center;
+    border-radius: 13px;
+}
+
+.cointainer button {
+    display: block;
+    width: 33%;
+    margin: 24px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.cointainer button:hover {
+    color: #ee1707;
+    font-size: 25px;
+}
+
+.cointainer h1 {
+    text-align: center;
+}
